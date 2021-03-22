@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,26 +10,73 @@
 body {
     background-image: url(./img/wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg);
     min-height: 100vh;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
 }
-
-p{
-    text-align:center;
-}
-
 
 .count {
-    display:flex;
-}
+    display: flex;
+    margin-left: 10vw;
+    margin-right:10vw ;
+    position: relative;
 
 }
+
+h1 {
+    margin-top: -30vh;
+    font-size:25px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+
 p {
-    margin-right: 15vw;
-    margin-left: 15vw;
-    display: flex;
+    margin-top:10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:60px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+span {
     text-align:center;
 }
+
+
+.days{
+    text-align:center;
+    
+}
+.min{
+    text-align:center;
+}
+.hour{
+    text-align:center;
+}
+.sec{
+    text-align:center;
+}
+.daya {
+    font-size: 15px;
+}
+.houra {
+    font-size: 15px;
+}
+.mina{
+    font-size: 15px;
+}
+.seca {
+    font-size: 15px;
+}
+
