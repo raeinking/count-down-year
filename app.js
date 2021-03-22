@@ -10,10 +10,10 @@ function count(){
     const minute = Math.floor(second / 60) % 60;
     const sec = Math.floor(second) % 60;
 
-    const setday0 = document.getElementById("dayp").innerHTML= days;
-    const setday1 = document.getElementById("hourp").innerHTML= hour;
-    const setday2 = document.getElementById("minp").innerHTML= minute;
-    const setday3 = document.getElementById("secp").innerHTML= sec;
+    document.getElementById("dayp").innerHTML= days;
+    document.getElementById("hourp").innerHTML= hour;
+    document.getElementById("minp").innerHTML= minute;
+    document.getElementById("secp").innerHTML= sec;
 }
 
 
