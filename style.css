@@ -9,7 +9,6 @@
 
 body {
     background-image: url(./img/wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg);
-    min-height: 100vh;
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -18,8 +17,8 @@ body {
     justify-content:center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    flex-wrap: wrap;
     background-repeat: no-repeat;
+    flex-wrap: wrap;
 }
 
 .count {
@@ -43,7 +42,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size:60px;
+    font-size:40px;
     margin-left: 3vw;
     margin-right: 3vw;
 
@@ -58,7 +57,7 @@ span {
     text-align:center;
     
 }
-.min{
+.MIN{
     text-align:center;
 }
 .hour{
