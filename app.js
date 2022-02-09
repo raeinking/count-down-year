@@ -1,4 +1,4 @@
-const newyear = "1 jan 2022";
+const newyear = "1 jan 2023";
 function count(){
     const newtime = new Date(newyear);
     const now = new Date();
